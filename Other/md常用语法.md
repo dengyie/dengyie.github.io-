@@ -33,6 +33,44 @@ normal~~delete~~normal
 ##### Header 5
 ###### Header 6
 
+## 列表 
+
+### 有序列表
+要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字 1 起始
+```
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+```
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
+### 无序列表
+
+要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表
+```
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+```
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+
 ## 引用
 要创建块引用，请在段落前添加一个 > 符号。
 ```
@@ -107,7 +145,23 @@ normal~~delete~~normal
 | Paragraph   | Text        | And more      |
 
 
-## 列表
+## 链接
+
+超链接Markdown语法代码：
+`[超链接显示名](超链接地址 "超链接title")`
+
+[超链接显示名](超链接地址 "超链接title")
+
+### 网址和Email地址
+
+使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
+```
+<https://markdown.com.cn>
+<fake@example.com>
+```
+
+<https://markdown.com.cn>
+<fake@example.com>
 
 ## Emoji 表情
 
