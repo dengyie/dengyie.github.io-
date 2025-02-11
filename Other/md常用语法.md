@@ -109,4 +109,18 @@ normal~~delete~~normal
 
 ## 列表
 
+## Emoji 表情
+
+```
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
+```
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
+
+[表情符号简码列表](https://gist.github.com/rxaviers/7360908)
+
+
 
